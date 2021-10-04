@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withAuth0 } from "@auth0/auth0-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import axios from "axios";
 import DataCard from "./components/DataCard";
 import Favs from "./components/Favs";
